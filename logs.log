@@ -1,0 +1,1301 @@
+2025-03-29 12:02:45,331:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-29 12:02:45,336:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-29 12:02:45,336:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-29 12:02:45,336:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-29 12:03:38,052:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-29 12:03:38,053:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-29 12:03:38,054:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-29 12:03:38,054:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-29 12:03:42,500:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:03:50,426:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:10:39,408:INFO:PyCaret ClassificationExperiment
+2025-03-29 12:10:39,409:INFO:Logging name: clf-default-name
+2025-03-29 12:10:39,409:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2025-03-29 12:10:39,409:INFO:version 3.3.2
+2025-03-29 12:10:39,410:INFO:Initializing setup()
+2025-03-29 12:10:39,410:INFO:self.USI: 0a58
+2025-03-29 12:10:39,410:INFO:self._variable_keys: {'X_train', 'y_test', 'gpu_param', 'idx', 'memory', 'USI', '_ml_usecase', '_available_plots', 'seed', 'y', 'exp_id', 'target_param', 'n_jobs_param', 'exp_name_log', 'fold_groups_param', 'fix_imbalance', 'gpu_n_jobs_param', 'fold_shuffle_param', 'logging_param', 'X_test', 'is_multiclass', 'log_plots_param', 'X', 'data', 'y_train', 'html_param', 'pipeline', 'fold_generator'}
+2025-03-29 12:10:39,411:INFO:Checking environment
+2025-03-29 12:10:39,411:INFO:python_version: 3.11.9
+2025-03-29 12:10:39,411:INFO:python_build: ('tags/v3.11.9:de54cf5', 'Apr  2 2024 10:12:12')
+2025-03-29 12:10:39,412:INFO:machine: AMD64
+2025-03-29 12:10:39,412:INFO:platform: Windows-10-10.0.19045-SP0
+2025-03-29 12:10:39,416:INFO:Memory: svmem(total=7925313536, available=1010139136, percent=87.3, used=6915174400, free=1010139136)
+2025-03-29 12:10:39,416:INFO:Physical Core: 2
+2025-03-29 12:10:39,418:INFO:Logical Core: 4
+2025-03-29 12:10:39,418:INFO:Checking libraries
+2025-03-29 12:10:39,418:INFO:System:
+2025-03-29 12:10:39,418:INFO:    python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2025-03-29 12:10:39,418:INFO:executable: c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\python.exe
+2025-03-29 12:10:39,419:INFO:   machine: Windows-10-10.0.19045-SP0
+2025-03-29 12:10:39,419:INFO:PyCaret required dependencies:
+2025-03-29 12:10:44,702:INFO:                 pip: 25.0.1
+2025-03-29 12:10:44,702:INFO:          setuptools: 65.5.0
+2025-03-29 12:10:44,702:INFO:             pycaret: 3.3.2
+2025-03-29 12:10:44,702:INFO:             IPython: 8.30.0
+2025-03-29 12:10:44,702:INFO:          ipywidgets: 8.1.5
+2025-03-29 12:10:44,702:INFO:                tqdm: 4.67.1
+2025-03-29 12:10:44,702:INFO:               numpy: 1.26.4
+2025-03-29 12:10:44,702:INFO:              pandas: 2.1.4
+2025-03-29 12:10:44,702:INFO:              jinja2: 3.1.4
+2025-03-29 12:10:44,702:INFO:               scipy: 1.11.4
+2025-03-29 12:10:44,702:INFO:              joblib: 1.3.2
+2025-03-29 12:10:44,702:INFO:             sklearn: 1.4.2
+2025-03-29 12:10:44,702:INFO:                pyod: 2.0.4
+2025-03-29 12:10:44,702:INFO:            imblearn: 0.13.0
+2025-03-29 12:10:44,702:INFO:   category_encoders: 2.7.0
+2025-03-29 12:10:44,702:INFO:            lightgbm: 4.6.0
+2025-03-29 12:10:44,704:INFO:               numba: 0.61.0
+2025-03-29 12:10:44,704:INFO:            requests: 2.32.3
+2025-03-29 12:10:44,704:INFO:          matplotlib: 3.7.5
+2025-03-29 12:10:44,704:INFO:          scikitplot: 0.3.7
+2025-03-29 12:10:44,704:INFO:         yellowbrick: 1.5
+2025-03-29 12:10:44,704:INFO:              plotly: 5.24.1
+2025-03-29 12:10:44,704:INFO:    plotly-resampler: Not installed
+2025-03-29 12:10:44,705:INFO:             kaleido: 0.2.1
+2025-03-29 12:10:44,707:INFO:           schemdraw: 0.15
+2025-03-29 12:10:44,707:INFO:         statsmodels: 0.14.4
+2025-03-29 12:10:44,707:INFO:              sktime: 0.26.0
+2025-03-29 12:10:44,707:INFO:               tbats: 1.1.3
+2025-03-29 12:10:44,708:INFO:            pmdarima: 2.0.4
+2025-03-29 12:10:44,708:INFO:              psutil: 6.1.0
+2025-03-29 12:10:44,708:INFO:          markupsafe: 2.1.5
+2025-03-29 12:10:44,708:INFO:             pickle5: Not installed
+2025-03-29 12:10:44,708:INFO:         cloudpickle: 3.1.1
+2025-03-29 12:10:44,708:INFO:         deprecation: 2.1.0
+2025-03-29 12:10:44,708:INFO:              xxhash: 3.5.0
+2025-03-29 12:10:44,709:INFO:           wurlitzer: Not installed
+2025-03-29 12:10:44,709:INFO:PyCaret optional dependencies:
+2025-03-29 12:11:08,110:INFO:                shap: 0.46.0
+2025-03-29 12:11:08,110:INFO:           interpret: Not installed
+2025-03-29 12:11:08,110:INFO:                umap: Not installed
+2025-03-29 12:11:08,110:INFO:     ydata_profiling: 4.12.2
+2025-03-29 12:11:08,110:INFO:  explainerdashboard: Not installed
+2025-03-29 12:11:08,110:INFO:             autoviz: Not installed
+2025-03-29 12:11:08,110:INFO:           fairlearn: Not installed
+2025-03-29 12:11:08,110:INFO:          deepchecks: Not installed
+2025-03-29 12:11:08,110:INFO:             xgboost: 2.1.4
+2025-03-29 12:11:08,112:INFO:            catboost: Not installed
+2025-03-29 12:11:08,112:INFO:              kmodes: Not installed
+2025-03-29 12:11:08,112:INFO:             mlxtend: Not installed
+2025-03-29 12:11:08,112:INFO:       statsforecast: Not installed
+2025-03-29 12:11:08,112:INFO:        tune_sklearn: Not installed
+2025-03-29 12:11:08,112:INFO:                 ray: Not installed
+2025-03-29 12:11:08,112:INFO:            hyperopt: Not installed
+2025-03-29 12:11:08,112:INFO:              optuna: Not installed
+2025-03-29 12:11:08,112:INFO:               skopt: 0.10.2
+2025-03-29 12:11:08,112:INFO:              mlflow: Not installed
+2025-03-29 12:11:08,112:INFO:              gradio: Not installed
+2025-03-29 12:11:08,112:INFO:             fastapi: 0.115.6
+2025-03-29 12:11:08,112:INFO:             uvicorn: 0.34.0
+2025-03-29 12:11:08,113:INFO:              m2cgen: Not installed
+2025-03-29 12:11:08,113:INFO:           evidently: Not installed
+2025-03-29 12:11:08,113:INFO:               fugue: Not installed
+2025-03-29 12:11:08,113:INFO:           streamlit: 1.41.1
+2025-03-29 12:11:08,113:INFO:             prophet: Not installed
+2025-03-29 12:11:08,113:INFO:None
+2025-03-29 12:11:08,113:INFO:Set up data.
+2025-03-29 12:11:08,169:INFO:Set up folding strategy.
+2025-03-29 12:11:08,169:INFO:Set up train/test split.
+2025-03-29 12:11:08,232:INFO:Set up index.
+2025-03-29 12:11:08,236:INFO:Assigning column types.
+2025-03-29 12:11:08,275:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2025-03-29 12:11:08,415:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-03-29 12:11:08,431:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-03-29 12:11:08,533:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-03-29 12:11:08,547:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-03-29 12:11:08,697:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-03-29 12:11:08,697:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-03-29 12:11:08,772:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-03-29 12:11:08,780:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-03-29 12:11:08,780:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2025-03-29 12:11:08,980:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-03-29 12:11:09,079:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-03-29 12:11:09,089:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-03-29 12:11:09,221:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-03-29 12:11:09,293:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-03-29 12:11:09,298:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-03-29 12:11:09,299:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2025-03-29 12:11:09,528:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-03-29 12:11:09,538:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-03-29 12:11:09,782:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-03-29 12:11:09,793:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-03-29 12:11:09,806:INFO:Preparing preprocessing pipeline...
+2025-03-29 12:11:09,818:INFO:Set up simple imputation.
+2025-03-29 12:11:09,818:INFO:Set up feature normalization.
+2025-03-29 12:11:09,829:INFO:Set up column name cleaning.
+2025-03-29 12:11:10,110:INFO:Finished creating preprocessing pipeline.
+2025-03-29 12:11:10,127:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\DAVIDG~1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['LIMIT_BAL', 'SEX', 'EDUCATION',
+                                             'MARRIAGE', 'AGE', 'PAY_0',
+                                             'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5',
+                                             'PAY_6', 'BILL_AMT1', 'BILL_AMT2',
+                                             'BILL_AMT3', 'BILL_AMT4',
+                                             'BILL_AMT5', 'BILL_AMT6',
+                                             'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3',...
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('normalize',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2025-03-29 12:11:10,127:INFO:Creating final display dataframe.
+2025-03-29 12:11:10,750:INFO:Setup _display_container:                     Description                       Value
+0                    Session id                        4682
+1                        Target  default payment next month
+2                   Target type                      Binary
+3           Original data shape                 (30000, 24)
+4        Transformed data shape                 (30000, 24)
+5   Transformed train set shape                 (21000, 24)
+6    Transformed test set shape                  (9000, 24)
+7              Numeric features                          23
+8                    Preprocess                        True
+9               Imputation type                      simple
+10           Numeric imputation                        mean
+11       Categorical imputation                        mode
+12                    Normalize                        True
+13             Normalize method                      zscore
+14               Fold Generator             StratifiedKFold
+15                  Fold Number                          10
+16                     CPU Jobs                          -1
+17                      Use GPU                       False
+18               Log Experiment                       False
+19              Experiment Name            clf-default-name
+20                          USI                        0a58
+2025-03-29 12:11:11,355:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-03-29 12:11:11,361:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-03-29 12:11:11,896:INFO:Soft dependency imported: xgboost: 2.1.4
+2025-03-29 12:11:11,901:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-03-29 12:11:11,912:INFO:setup() successfully completed in 32.51s...............
+2025-03-29 12:11:11,913:INFO:Initializing create_model()
+2025-03-29 12:11:11,914:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002633F077AD0>, estimator=LinearSVC(C=1.0, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-03-29 12:11:11,914:INFO:Checking exceptions
+2025-03-29 12:11:11,971:INFO:Importing libraries
+2025-03-29 12:11:11,971:INFO:Copying training dataset
+2025-03-29 12:11:12,258:INFO:Defining folds
+2025-03-29 12:11:12,259:INFO:Declaring metric variables
+2025-03-29 12:11:12,278:INFO:Importing untrained model
+2025-03-29 12:11:12,287:INFO:Declaring custom model
+2025-03-29 12:11:12,310:INFO:LinearSVC Imported successfully
+2025-03-29 12:11:12,347:INFO:Starting cross validation
+2025-03-29 12:11:12,348:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-03-29 12:11:29,557:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:11:33,261:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:11:33,423:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:11:36,345:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:11:46,144:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:11:46,884:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:11:50,716:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:11:50,746:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:11:51,294:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:11:51,357:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:11:54,251:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:11:54,931:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:05,899:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:06,381:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:10,741:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:11,142:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:11,188:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:13,665:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:21,432:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:23,963:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:24,038:INFO:Calculating mean and std
+2025-03-29 12:12:24,039:INFO:Creating metrics dataframe
+2025-03-29 12:12:24,061:INFO:Finalizing model
+2025-03-29 12:12:24,192:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:34,656:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:34,679:INFO:Uploading results into container
+2025-03-29 12:12:34,680:INFO:Uploading model into container now
+2025-03-29 12:12:34,772:INFO:_master_model_container: 1
+2025-03-29 12:12:34,772:INFO:_display_container: 2
+2025-03-29 12:12:34,777:INFO:LinearSVC(C=1.0, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0)
+2025-03-29 12:12:34,778:INFO:create_model() successfully completed......................................
+2025-03-29 12:12:34,971:INFO:Initializing tune_model()
+2025-03-29 12:12:34,971:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002633F077AD0>, estimator=LinearSVC(C=1.0, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0), fold=None, round=4, n_iter=10, custom_grid={'C': UniformDistribution(lower=0, upper=50, log=False)}, optimize=Accuracy, custom_scorer=None, search_library=scikit-optimize, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-03-29 12:12:34,971:INFO:Checking exceptions
+2025-03-29 12:12:34,971:INFO:Soft dependency imported: skopt: 0.10.2
+2025-03-29 12:12:35,154:INFO:Copying training dataset
+2025-03-29 12:12:35,277:INFO:Checking base model
+2025-03-29 12:12:35,278:INFO:A custom model has been passed
+2025-03-29 12:12:35,278:INFO:Base model : LinearSVC
+2025-03-29 12:12:35,314:INFO:Declaring metric variables
+2025-03-29 12:12:35,330:INFO:Defining Hyperparameters
+2025-03-29 12:12:35,673:INFO:custom_grid: {'actual_estimator__C': UniformDistribution(lower=0, upper=50, log=False)}
+2025-03-29 12:12:35,673:INFO:Tuning with n_jobs=-1
+2025-03-29 12:12:35,676:INFO:Initializing skopt.BayesSearchCV
+2025-03-29 12:12:36,141:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:36,170:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:36,174:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:36,179:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:54,998:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:55,119:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:55,182:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:55,254:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:12:55,275:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:55,420:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:55,496:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:12:55,584:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:13:14,244:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:13:14,303:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:13:14,324:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:13:14,330:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:13:14,472:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:13:14,527:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:13:26,072:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:13:26,126:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:13:26,541:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:13:26,555:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:13:26,591:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:13:26,592:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:13:46,391:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:13:46,707:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:13:46,768:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:13:46,806:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:13:46,886:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:13:47,184:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:13:47,200:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:13:47,250:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:05,791:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:06,004:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:06,066:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:06,082:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:06,128:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:06,249:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:16,594:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:16,623:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:16,957:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:16,981:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:16,985:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:17,006:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:37,339:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:37,594:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:37,703:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:37,881:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:38,018:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:38,148:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:38,244:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:38,265:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:57,317:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:58,005:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:58,069:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:14:58,103:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:58,289:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:14:58,411:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:09,562:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:09,696:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:10,062:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:15:10,072:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:15:10,121:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:15:10,166:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:15:31,140:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:31,205:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:31,216:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:31,322:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:31,529:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:15:31,537:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:15:31,548:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:15:31,699:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:15:51,703:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:51,738:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:51,749:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:51,749:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:15:51,964:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:15:51,976:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:05,276:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:05,326:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:05,777:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:05,781:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:05,786:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:05,810:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:24,177:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:24,300:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:24,454:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:24,562:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:24,632:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:24,645:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:24,809:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:24,997:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:43,994:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:44,009:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:44,276:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:44,282:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:44,305:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:44,436:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:55,710:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:55,778:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:16:56,278:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:56,283:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:16:56,309:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:17:12,447:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:17:12,608:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:17:12,641:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:17:12,842:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:17:12,923:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:17:12,968:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:17:13,107:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:17:13,443:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:17:34,300:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:17:34,597:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:17:34,679:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:17:34,763:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:17:35,039:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:17:35,045:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:17:48,501:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:17:48,803:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:17:49,224:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:17:49,229:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:17:49,257:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:17:49,260:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:06,340:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:06,425:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:06,655:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:06,680:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:06,843:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:06,874:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:07,151:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:07,157:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:22,892:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:23,055:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:23,210:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:23,323:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:23,516:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:23,639:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:33,937:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:34,009:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:34,359:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:34,397:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:34,412:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:34,420:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:50,410:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:50,412:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:50,444:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:50,602:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:18:50,692:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:50,721:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:50,721:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:18:50,918:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:06,153:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:06,264:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:06,304:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:06,408:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:06,485:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:06,530:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:16,653:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:16,726:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:17,173:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:17,178:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:17,185:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:17,190:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:33,960:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:34,061:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:34,196:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:34,417:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:34,465:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:34,469:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:34,620:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:34,801:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:49,788:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:49,961:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:50,033:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:50,055:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:50,199:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:19:50,234:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:59,805:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:19:59,891:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:00,634:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:00,783:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:00,788:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:00,820:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:15,714:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:15,759:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:15,894:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:15,924:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:15,970:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:16,025:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:16,174:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:16,255:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:31,507:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:31,637:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:31,873:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:31,941:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:31,947:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:31,980:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:43,283:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:43,338:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:43,756:INFO:best_params: OrderedDict([('actual_estimator__C', 15.321259263229)])
+2025-03-29 12:20:43,765:INFO:Hyperparameter search completed
+2025-03-29 12:20:43,766:INFO:SubProcess create_model() called ==================================
+2025-03-29 12:20:43,766:INFO:Initializing create_model()
+2025-03-29 12:20:43,766:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002633F077AD0>, estimator=LinearSVC(C=1.0, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002635295E350>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'C': 15.321259263229})
+2025-03-29 12:20:43,766:INFO:Checking exceptions
+2025-03-29 12:20:43,766:INFO:Importing libraries
+2025-03-29 12:20:43,766:INFO:Copying training dataset
+2025-03-29 12:20:43,822:INFO:Defining folds
+2025-03-29 12:20:43,822:INFO:Declaring metric variables
+2025-03-29 12:20:43,830:INFO:Importing untrained model
+2025-03-29 12:20:43,830:INFO:Declaring custom model
+2025-03-29 12:20:43,842:INFO:LinearSVC Imported successfully
+2025-03-29 12:20:43,862:INFO:Starting cross validation
+2025-03-29 12:20:43,867:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-03-29 12:20:44,175:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:44,223:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:44,238:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:44,246:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:58,903:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:58,945:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:59,051:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:59,072:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:20:59,264:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:59,317:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:59,445:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:20:59,482:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:16,142:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:16,364:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:16,426:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:16,460:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:16,480:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:16,630:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:26,122:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:26,283:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:26,345:INFO:Calculating mean and std
+2025-03-29 12:21:26,347:INFO:Creating metrics dataframe
+2025-03-29 12:21:26,365:INFO:Finalizing model
+2025-03-29 12:21:26,483:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:35,018:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:35,048:INFO:Uploading results into container
+2025-03-29 12:21:35,049:INFO:Uploading model into container now
+2025-03-29 12:21:35,049:INFO:_master_model_container: 2
+2025-03-29 12:21:35,049:INFO:_display_container: 3
+2025-03-29 12:21:35,049:INFO:LinearSVC(C=15.321259263229, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0)
+2025-03-29 12:21:35,054:INFO:create_model() successfully completed......................................
+2025-03-29 12:21:35,247:INFO:SubProcess create_model() end ==================================
+2025-03-29 12:21:35,247:INFO:choose_better activated
+2025-03-29 12:21:35,260:INFO:SubProcess create_model() called ==================================
+2025-03-29 12:21:35,261:INFO:Initializing create_model()
+2025-03-29 12:21:35,261:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002633F077AD0>, estimator=LinearSVC(C=1.0, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-03-29 12:21:35,261:INFO:Checking exceptions
+2025-03-29 12:21:35,267:INFO:Importing libraries
+2025-03-29 12:21:35,267:INFO:Copying training dataset
+2025-03-29 12:21:35,329:INFO:Defining folds
+2025-03-29 12:21:35,329:INFO:Declaring metric variables
+2025-03-29 12:21:35,329:INFO:Importing untrained model
+2025-03-29 12:21:35,329:INFO:Declaring custom model
+2025-03-29 12:21:35,329:INFO:LinearSVC Imported successfully
+2025-03-29 12:21:35,329:INFO:Starting cross validation
+2025-03-29 12:21:35,329:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-03-29 12:21:35,617:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:35,617:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:35,617:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:35,639:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:50,151:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:50,309:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:50,383:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:50,495:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:50,595:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:21:50,628:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:50,713:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:21:50,895:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:22:05,027:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:22:05,297:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:22:05,341:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:22:05,365:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:22:05,525:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:22:05,585:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:22:14,843:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:22:15,010:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:22:15,097:INFO:Calculating mean and std
+2025-03-29 12:22:15,098:INFO:Creating metrics dataframe
+2025-03-29 12:22:15,104:INFO:Finalizing model
+2025-03-29 12:22:15,210:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_classes.py:31: FutureWarning: The default value of `dual` will change from `True` to `'auto'` in 1.5. Set the value of `dual` explicitly to suppress the warning.
+  warnings.warn(
+
+2025-03-29 12:22:24,975:WARNING:c:\Users\David gathara marigi\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\svm\_base.py:1237: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+2025-03-29 12:22:24,980:INFO:Uploading results into container
+2025-03-29 12:22:24,980:INFO:Uploading model into container now
+2025-03-29 12:22:24,980:INFO:_master_model_container: 3
+2025-03-29 12:22:24,980:INFO:_display_container: 4
+2025-03-29 12:22:24,985:INFO:LinearSVC(C=1.0, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0)
+2025-03-29 12:22:24,986:INFO:create_model() successfully completed......................................
+2025-03-29 12:22:25,134:INFO:SubProcess create_model() end ==================================
+2025-03-29 12:22:25,135:INFO:LinearSVC(C=1.0, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0) result for Accuracy is 0.798
+2025-03-29 12:22:25,136:INFO:LinearSVC(C=15.321259263229, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0) result for Accuracy is 0.7957
+2025-03-29 12:22:25,136:INFO:LinearSVC(C=1.0, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0) is best model
+2025-03-29 12:22:25,136:INFO:choose_better completed
+2025-03-29 12:22:25,136:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2025-03-29 12:22:25,174:INFO:_master_model_container: 3
+2025-03-29 12:22:25,175:INFO:_display_container: 3
+2025-03-29 12:22:25,176:INFO:LinearSVC(C=1.0, class_weight=None, dual='warn', fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0)
+2025-03-29 12:22:25,176:INFO:tune_model() successfully completed......................................
+2025-03-29 12:22:25,490:INFO:Initializing create_model()
+2025-03-29 12:22:25,491:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002633F077AD0>, estimator=svm, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-03-29 12:22:25,492:INFO:Checking exceptions
+2025-03-29 12:22:25,543:INFO:Importing libraries
+2025-03-29 12:22:25,548:INFO:Copying training dataset
+2025-03-29 12:22:25,644:INFO:Defining folds
+2025-03-29 12:22:25,644:INFO:Declaring metric variables
+2025-03-29 12:22:25,655:INFO:Importing untrained model
+2025-03-29 12:22:25,669:INFO:SVM - Linear Kernel Imported successfully
+2025-03-29 12:22:25,697:INFO:Starting cross validation
+2025-03-29 12:22:25,699:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-03-29 12:22:28,204:INFO:Calculating mean and std
+2025-03-29 12:22:28,219:INFO:Creating metrics dataframe
+2025-03-29 12:22:28,297:INFO:Finalizing model
+2025-03-29 12:22:28,785:INFO:Uploading results into container
+2025-03-29 12:22:28,785:INFO:Uploading model into container now
+2025-03-29 12:22:28,816:INFO:_master_model_container: 4
+2025-03-29 12:22:28,816:INFO:_display_container: 4
+2025-03-29 12:22:28,817:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2025-03-29 12:22:28,817:INFO:create_model() successfully completed......................................
+2025-03-29 12:22:28,961:INFO:Initializing tune_model()
+2025-03-29 12:22:28,961:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002633F077AD0>, estimator=SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit optimize, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-03-29 12:22:28,961:INFO:Checking exceptions
+2025-03-29 12:28:03,095:INFO:Initializing create_model()
+2025-03-29 12:28:03,100:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002633F077AD0>, estimator=svm, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-03-29 12:28:03,100:INFO:Checking exceptions
+2025-03-29 12:28:03,138:INFO:Importing libraries
+2025-03-29 12:28:03,143:INFO:Copying training dataset
+2025-03-29 12:28:03,313:INFO:Defining folds
+2025-03-29 12:28:03,313:INFO:Declaring metric variables
+2025-03-29 12:28:03,340:INFO:Importing untrained model
+2025-03-29 12:28:03,357:INFO:SVM - Linear Kernel Imported successfully
+2025-03-29 12:28:03,388:INFO:Starting cross validation
+2025-03-29 12:28:03,391:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-03-29 12:28:18,023:INFO:Calculating mean and std
+2025-03-29 12:28:18,027:INFO:Creating metrics dataframe
+2025-03-29 12:28:18,051:INFO:Finalizing model
+2025-03-29 12:28:18,421:INFO:Uploading results into container
+2025-03-29 12:28:18,426:INFO:Uploading model into container now
+2025-03-29 12:28:18,484:INFO:_master_model_container: 5
+2025-03-29 12:28:18,484:INFO:_display_container: 5
+2025-03-29 12:28:18,486:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2025-03-29 12:28:18,487:INFO:create_model() successfully completed......................................
+2025-03-29 12:28:18,802:INFO:Initializing tune_model()
+2025-03-29 12:28:18,802:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002633F077AD0>, estimator=SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-optimize, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-03-29 12:28:18,802:INFO:Checking exceptions
+2025-03-29 12:28:18,802:INFO:Soft dependency imported: skopt: 0.10.2
+2025-03-29 12:28:18,894:INFO:Copying training dataset
+2025-03-29 12:28:18,948:INFO:Checking base model
+2025-03-29 12:28:18,948:INFO:Base model : SVM - Linear Kernel
+2025-03-29 12:28:18,966:INFO:Declaring metric variables
+2025-03-29 12:28:18,978:INFO:Defining Hyperparameters
+2025-03-29 12:28:19,155:INFO:Tuning with n_jobs=-1
+2025-03-29 12:28:19,165:INFO:Initializing skopt.BayesSearchCV
+2025-03-29 12:28:40,678:INFO:best_params: OrderedDict([('actual_estimator__alpha', 1.1594495400700674e-07), ('actual_estimator__eta0', 0.021281572443073347), ('actual_estimator__fit_intercept', True), ('actual_estimator__l1_ratio', 0.10269622053081184), ('actual_estimator__learning_rate', 'adaptive'), ('actual_estimator__penalty', 'l1')])
+2025-03-29 12:28:40,679:INFO:Hyperparameter search completed
+2025-03-29 12:28:40,680:INFO:SubProcess create_model() called ==================================
+2025-03-29 12:28:40,683:INFO:Initializing create_model()
+2025-03-29 12:28:40,684:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002633F077AD0>, estimator=SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002633C6CFC50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'alpha': 1.1594495400700674e-07, 'eta0': 0.021281572443073347, 'fit_intercept': True, 'l1_ratio': 0.10269622053081184, 'learning_rate': 'adaptive', 'penalty': 'l1'})
+2025-03-29 12:28:40,684:INFO:Checking exceptions
+2025-03-29 12:28:40,684:INFO:Importing libraries
+2025-03-29 12:28:40,685:INFO:Copying training dataset
+2025-03-29 12:28:40,727:INFO:Defining folds
+2025-03-29 12:28:40,727:INFO:Declaring metric variables
+2025-03-29 12:28:40,731:INFO:Importing untrained model
+2025-03-29 12:28:40,732:INFO:Declaring custom model
+2025-03-29 12:28:40,737:INFO:SVM - Linear Kernel Imported successfully
+2025-03-29 12:28:40,750:INFO:Starting cross validation
+2025-03-29 12:28:40,753:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-03-29 12:28:44,354:INFO:Calculating mean and std
+2025-03-29 12:28:44,357:INFO:Creating metrics dataframe
+2025-03-29 12:28:44,371:INFO:Finalizing model
+2025-03-29 12:28:45,018:INFO:Uploading results into container
+2025-03-29 12:28:45,020:INFO:Uploading model into container now
+2025-03-29 12:28:45,022:INFO:_master_model_container: 6
+2025-03-29 12:28:45,022:INFO:_display_container: 6
+2025-03-29 12:28:45,031:INFO:SGDClassifier(alpha=1.1594495400700674e-07, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.021281572443073347,
+              fit_intercept=True, l1_ratio=0.10269622053081184,
+              learning_rate='adaptive', loss='hinge', max_iter=1000,
+              n_iter_no_change=5, n_jobs=-1, penalty='l1', power_t=0.5,
+              random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2025-03-29 12:28:45,031:INFO:create_model() successfully completed......................................
+2025-03-29 12:28:45,334:INFO:SubProcess create_model() end ==================================
+2025-03-29 12:28:45,334:INFO:choose_better activated
+2025-03-29 12:28:45,367:INFO:SubProcess create_model() called ==================================
+2025-03-29 12:28:45,370:INFO:Initializing create_model()
+2025-03-29 12:28:45,370:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002633F077AD0>, estimator=SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-03-29 12:28:45,370:INFO:Checking exceptions
+2025-03-29 12:28:45,380:INFO:Importing libraries
+2025-03-29 12:28:45,380:INFO:Copying training dataset
+2025-03-29 12:28:45,450:INFO:Defining folds
+2025-03-29 12:28:45,450:INFO:Declaring metric variables
+2025-03-29 12:28:45,450:INFO:Importing untrained model
+2025-03-29 12:28:45,450:INFO:Declaring custom model
+2025-03-29 12:28:45,450:INFO:SVM - Linear Kernel Imported successfully
+2025-03-29 12:28:45,450:INFO:Starting cross validation
+2025-03-29 12:28:45,450:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-03-29 12:28:48,584:INFO:Calculating mean and std
+2025-03-29 12:28:48,584:INFO:Creating metrics dataframe
+2025-03-29 12:28:48,584:INFO:Finalizing model
+2025-03-29 12:28:48,940:INFO:Uploading results into container
+2025-03-29 12:28:48,940:INFO:Uploading model into container now
+2025-03-29 12:28:48,940:INFO:_master_model_container: 7
+2025-03-29 12:28:48,940:INFO:_display_container: 7
+2025-03-29 12:28:48,940:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2025-03-29 12:28:48,940:INFO:create_model() successfully completed......................................
+2025-03-29 12:28:49,108:INFO:SubProcess create_model() end ==================================
+2025-03-29 12:28:49,109:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False) result for Accuracy is 0.7995
+2025-03-29 12:28:49,109:INFO:SGDClassifier(alpha=1.1594495400700674e-07, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.021281572443073347,
+              fit_intercept=True, l1_ratio=0.10269622053081184,
+              learning_rate='adaptive', loss='hinge', max_iter=1000,
+              n_iter_no_change=5, n_jobs=-1, penalty='l1', power_t=0.5,
+              random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False) result for Accuracy is 0.7999
+2025-03-29 12:28:49,109:INFO:SGDClassifier(alpha=1.1594495400700674e-07, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.021281572443073347,
+              fit_intercept=True, l1_ratio=0.10269622053081184,
+              learning_rate='adaptive', loss='hinge', max_iter=1000,
+              n_iter_no_change=5, n_jobs=-1, penalty='l1', power_t=0.5,
+              random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False) is best model
+2025-03-29 12:28:49,109:INFO:choose_better completed
+2025-03-29 12:28:49,130:INFO:_master_model_container: 7
+2025-03-29 12:28:49,131:INFO:_display_container: 6
+2025-03-29 12:28:49,133:INFO:SGDClassifier(alpha=1.1594495400700674e-07, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.021281572443073347,
+              fit_intercept=True, l1_ratio=0.10269622053081184,
+              learning_rate='adaptive', loss='hinge', max_iter=1000,
+              n_iter_no_change=5, n_jobs=-1, penalty='l1', power_t=0.5,
+              random_state=4682, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2025-03-29 12:28:49,133:INFO:tune_model() successfully completed......................................
